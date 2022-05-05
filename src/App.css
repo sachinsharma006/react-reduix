@@ -3,7 +3,16 @@
   align-items: center;
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  min-height: 80vh;
+}
+h1 {
+  color: #81829E;
+}
+
+.mouse {
+  text-align: center;
+  animation: bounce 1.5s ease-in infinite;
+  color: #81829E;
 }
 
 button {
@@ -20,4 +29,12 @@ button {
 
 button:active {
   background: #c4c4c9;
+}
+
+@keyframes bounce {
+  0%,100% {
+    transform: translateY(0px);
+  }50% {
+    transform: translateY(10px);
+  }
 }

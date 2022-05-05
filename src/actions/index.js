@@ -23,3 +23,14 @@ export const reset = () => {
     type: "RESET",
   };
 };
+export const log = () => {
+  return {
+    type: "LOG",
+  };
+};
+export const sqrt = () => {
+  return {
+    type: "SQRT",
+  };
+};
+
